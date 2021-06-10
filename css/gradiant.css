@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    height: 100vh;
+    /* margin: 0px 0px; */
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background: repeating-radial-gradient(red, green, yellow);
+    perspective:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.subpart{
+    height:300px;
+    width:100%;
+    background-image:url('..//img/Blue-Sky-HD-Nature-Wallpapers-nature-wallpapers-blue-sky-2560x1600.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box .subpart:hover{
+    transition: 2s;
+    border-radius: 50% 20%;
+    transform: rotateX(180deg);
+    transform: rotateY(360deg);
+}

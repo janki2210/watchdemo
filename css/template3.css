@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.bg-crimson{
+    background-color: crimson;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    background-image: url('../img/banks-kn9F--621x414@LiveMint.webp');
+    /* background-repeat:repeat-x; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size:10% 20px; */
+    background-size: cover;
+    /* background-position: left,top; */
+    /* background-position: 10% 20px; */
+}
+.box1{
+    width: 100%;
+    height: 100vh;
+    background-color: darkblue;
+    font-family: 'Train One', cursive;
+    word-spacing: 15px;
+    letter-spacing: 12px;
+    line-height: 50px;
+    font-weight: 900;
+    font-variant: small-caps;
+    /* white-space: nowrap; */
+    text-indent: 50px;
+}

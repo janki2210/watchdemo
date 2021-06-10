@@ -1,0 +1,44 @@
+div{
+    display: none;
+    color: maroon;
+}
+@media screen and (max-width:426px){
+   #mobile{
+        display: block;
+        color:olive;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    #tablet{
+         display: block;
+         color:green;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+ }
+@media screen and (min-width:768px) and (max-width:1024px){
+    #laptop{
+         display: block;
+         color:purple;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+ }
+ @media screen and (min-width:1024px) and (max-width:1440px){
+    #large{
+         display: block;
+         color:yellow;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+ }

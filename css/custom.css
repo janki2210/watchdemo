@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.bg1{
+    background-color: greenyellow;
+}
+.bg2{
+    background-color: hotpink;
+}
+.bg3{
+    background-color:goldenrod;
+}
+.bg4{
+    background-color: green;
+}
+.bg5{
+    background-color: gold;
+}
+.bg6{
+    background-color: darkviolet;
+}
+.bg7{
+    background-color: darkred;
+}
+.bg8{
+    background-color: darkblue;
+}
+.bg9{
+    background-color: coral;
+}
+.bg10{
+    background-color: brown;
+}
+.text{
+    color:white;
+}
+.vh100{
+    height: 100vh;
+}
+.row{
+    clear: both;
+}
+.col12{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.col4{
+    width: 33.333%;
+    float: left;
+}
+.col3{
+    width: 25%;
+    float: left;
+}
+
+.h200{
+    height: 200px;
+}
+.h400{
+    height: 400px;
+}
+a{
+    font-size: 20px;
+}
+

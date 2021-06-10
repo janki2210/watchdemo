@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-brown{
+    background-color: brown;
+}
+.bg-crimson{
+    background-color: crimson;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-black{
+    background-color: black;
+}
+.bg1{
+    background-color:#d3d3d385;
+}
+.bg{
+    background-color: #205167;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    clear: both;
+    margin-top: 30px;
+}
+.col4{
+    width: 33.333%;
+    /* height: 200px; */
+    float: left;
+    /* padding: 0 10px; */
+    box-sizing: border-box;
+}
+.servicebox{
+    overflow: auto;
+    padding: 0 10px;
+    text-align:left;
+}
+.servicebox-header{
+   position: relative;
+   height: 200px;
+}
+.servicebox-header img{
+    width: 100%;
+    height: 200px;
+}
+.price{
+    position: absolute;
+    right: 7px;
+    bottom: -23px;
+    width: 40px;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 50%;
+    float: right;
+    font-size: 15px;
+}
+.servicebox-title{
+    /* height: 50px; */
+    padding: 0px 10px;
+    /* float: left; */
+    /* border: 2px solid black; */
+}
+.servicebox-title button{
+    width: 100px;
+    height: 30px;
+    /* float: left; */
+    margin: 10px;
+    font-size: 10px;
+    /* padding:0px 10px; */
+    text-align: center;
+    color: white;
+    background-color:#205167;
+    border: none;
+}
+.heading{
+    font-size: 10px;
+    /* float: left; */
+    text-align: left;
+    padding: 5px;
+    color: #000000cc;
+}
+.price2{
+    color: orange;
+}
+.h2{
+    color: orange;
+}
+.paragraph{
+    text-align:left;
+    font-size: 14px;
+    /* float: left; */
+    text-align: left;
+    padding:10px 10px;
+    line-height: 20px;
+    color: #000000cc;
+}
+.servicebox-footer{
+    overflow: auto;
+    padding:5px;
+    box-sizing: border-box;
+}
+.servicebox-footer img{
+    width: 30px;
+    height: 37px;
+    padding: 0 10px;
+    border-radius: 50%;
+    text-align:center;
+}
+.servicebox-footer a{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    font-size: 13px;
+}
+.hearticon{
+    float: right;
+    text-align: right;
+    padding: 5px 0px;
+}
+.usericon{
+    float: right;
+    text-align:right;
+    padding: 5px 3px;
+}
+@media screen and (max-width:427px) {
+    .col4{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width:768px){
+    .col4{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+    
+

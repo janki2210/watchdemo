@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-brown{
+    background-color: brown;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.skillsrow{
+    width: 100%;
+    clear: both;
+}
+.skills{
+    width: 25%;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+header h2{
+    display: inline-block;
+    padding: 10px 0;
+}
+header button{
+    width: 50px;
+    height: 50px;
+    display: none;
+    float: right;
+}
+header button i{
+    width: 100%;
+    height: 4px;
+    margin: 10px 0;
+    display: block;
+}
+header nav{
+    float: right;
+    padding: 10px 0;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+/* banner */
+#banner{
+    color: white;
+    padding: 200px 0;
+    text-align: center;
+    background-image: url('../img/Bordeaux\ space.jpg');
+    /* background-size: cover; */
+}
+#banner h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* my skills */
+#skills h5{
+    font-size: 25px;
+    text-align: center;
+    color: teal;
+    padding: 10px 0;
+}
+#skills .skillsbox{
+    /* height: 200px; */
+    margin: 10px 10px;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid red;
+    text-align: center;
+}
+#skills .skillsbox i{
+    margin: 10px;
+    font-size: 60px;
+}
+#skills .skillsbox h3{
+    margin: 10px;
+}
+#skills .skillsbox p{
+    margin: 10px;
+}
+/* tablet screen */
+@media screen and (max-width:768px) 
+{
+   .skills{
+       width: 50%;
+   } 
+}
+/* mobile screen */
+@media screen and (max-width:426px) 
+{
+   .skills{
+       width: 100%;
+   }
+   header button{
+       width: 40px;
+       height: 40px;
+       display: inline-block;
+       padding-bottom: 20px;
+   }
+   nav{
+       display: none;
+   }
+}
